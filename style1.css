@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header1{
+    display: flex;
+    width: 100%;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text1{
+    display: flex;
+    font-weight: 900;
+    font-size: 31.58px;
+    color: black;
+    font-family: "Impact";
+    line-height: 27.63px;
+}
+
+.text2{
+    display: flex;
+    font-family: "Futura";
+    font-weight: 400;
+    justify-content: flex-start;
+    font-size: 9.21px;
+    line-height: 9.21px;
+    color: black;
+}
+
+.header2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1A2028;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn button{
+    background-color: #1B54DD;
+    width: 110px;
+    height: 41px;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 14px;
+    border: 0;
+    margin-top: 32px;
+}
+.img1-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.img1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    width: 28.235vw;
+    height: 270px;
+}
+.text3-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.text3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1A2028;
+    width: 28.235vw;
+    margin-top: 32px;
+    text-align: center;
+}
+footer{
+    margin-top: 32px;
+    width: 100%;
+    height: 948px;
+    background-color: #E8E8E8;
+}
+
+.icons{
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.icon{
+    width: 18px;
+    height: 18px;
+}
+
+.footer-text{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    font-family: "Inter";
+}
+
+.footer_text_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.end{
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #C2C2C2;
+    font-family: "Impact";
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .header1 {
+        height: auto;
+        padding: 10px;
+    }
+
+    .text1 {
+        font-size: 24px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .text2 {
+        font-size: 8px;
+        line-height: 8px;
+        text-align: center;
+    }
+
+    .header2 {
+        font-size: 24px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .btn button {
+        width: 90px;
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .img1 {
+        width: 80%;
+        height: auto;
+    }
+
+    .text3 {
+        width: 90%;
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 16px;
+    }
+
+    .icons {
+        gap: 16px;
+    }
+
+    .icon {
+        width: 14px;
+        height: 14px;
+    }
+
+    .footer-text {
+        gap: 4px;
+        font-size: 12px;
+    }
+
+    .end {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header1 {
+        height: auto;
+        padding: 20px;
+    }
+
+    .text1 {
+        font-size: 28px;
+        line-height: 26px;
+    }
+
+    .text2 {
+        font-size: 9px;
+        line-height: 9px;
+    }
+
+    .header2 {
+        font-size: 30px;
+    }
+
+    .btn button {
+        width: 100px;
+        height: 38px;
+        font-size: 13px;
+    }
+
+    .img1 {
+        width: 60%;
+        height: auto;
+    }
+
+    .text3 {
+        width: 80%;
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .icons {
+        gap: 24px;
+    }
+
+    .icon {
+        width: 16px;
+        height: 16px;
+    }
+
+    .footer-text {
+        gap: 6px;
+        font-size: 13px;
+    }
+
+    .end {
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .header1 {
+        height: 130px;
+    }
+
+    .text1 {
+        font-size: 31.58px;
+        line-height: 27.63px;
+    }
+
+    .text2 {
+        font-size: 9.21px;
+        line-height: 9.21px;
+    }
+
+    .header2 {
+        font-size: 36px;
+    }
+
+    .btn button {
+        width: 110px;
+        height: 41px;
+        font-size: 14px;
+    }
+
+    .img1 {
+        width: 28.235vw;
+        height: 270px;
+    }
+
+    .text3 {
+        width: 28.235vw;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .icons {
+        gap: 32px;
+    }
+
+    .icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .footer-text {
+        gap: 8px;
+        font-size: 14px;
+    }
+
+    .end {
+        font-size: 20px;
+    }
+}
